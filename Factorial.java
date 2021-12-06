@@ -28,7 +28,7 @@ final class Factorial {
     * @return The factorial of the number
     */
 
-    public static int factorial(int anyInt) {
+    public static int factorial(final int anyInt) {
         int returnValue = 0;
         // Uses recursion to reverse string
         if (anyInt == 1) {
